@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Cormorant Garamond", serif;
+
+
+}
+
+@media (max-width: 768px) {
+    .banner_img img{
+       width: 300px;
+    }
+    .for_tab img{
+        padding-top: 200px;
+    }
+    .footer_logo img{
+        width: 100px;
+    }
+
+}
+
+.contact_us{
+    padding-top: 100px;
+    background-image: url(../images/illustrations/shadow_leaves_01.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.border_use{
+    border-radius: 0px;
+  background-color: rgba(65, 183, 116, 0.219);
+    border: none;
+    border-bottom: 2px solid gray;
+}
+.border_border{
+    border-radius: 0px;
+
+
+}
